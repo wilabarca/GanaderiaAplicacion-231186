@@ -10,9 +10,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="636.0" prefWidth="853.0" style="-fx-background-color: EBEBEB;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.multidisciplinario.proyectoganaderia.controllers.VerGanadoController">
+<AnchorPane prefHeight="636.0" prefWidth="853.0" style="-fx-background-color: EBEBEB;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.multidisciplinario.proyectoganaderia.controllers.VerGanadoController">
     <children>
-        <TableView fx:id="tablaDatos" layoutX="53.0" layoutY="222.0" prefHeight="74.0" prefWidth="758.0">
+        <TableView fx:id="tablaDatos" layoutX="50.0" layoutY="214.0" prefHeight="74.0" prefWidth="758.0">
             <columns>
                 <TableColumn fx:id="colArete" prefWidth="75.0" text="Numero de Arete" />
                 <TableColumn fx:id="colEdad" prefWidth="75.0" text="Edad" />
@@ -38,27 +38,32 @@
                 </Button>
             </children>
         </AnchorPane>
-        <Text layoutX="53.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tabla Vacunas con Dosis">
+        <Text layoutX="50.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tabla Vacunas con Dosis">
             <font>
                 <Font size="19.0" />
             </font>
         </Text>
-        <Text layoutX="53.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tabla de Medicamentos, Vacunas y Datos de Identificación">
+        <Text layoutX="53.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tabla De Datos de Identificación y Fecha De Vacunacion">
             <font>
                 <Font size="19.0" />
             </font>
         </Text>
-        <AnchorPane layoutX="233.0" layoutY="94.0" prefHeight="58.0" prefWidth="438.0" style="-fx-background-color: #E0E0E0; -fx-background-radius: 10;">
+        <AnchorPane layoutX="214.0" layoutY="91.0" prefHeight="62.0" prefWidth="457.0" style="-fx-background-color: #E0E0E0; -fx-background-radius: 10;">
             <children>
                 <TextField fx:id="inputArete" layoutX="204.0" layoutY="15.0" prefHeight="33.0" prefWidth="180.0" style="-fx-border-color: #E0E0E0;" />
-                <Text layoutX="14.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrese Numero De Arete" textAlignment="CENTER" wrappingWidth="179.61634826660156">
+                <Text layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrese Numero De Arete" textAlignment="CENTER" wrappingWidth="179.61634826660156">
                     <font>
-                        <Font size="15.0" />
+                        <Font name="Arial" size="15.0" />
                     </font>
                 </Text>
+            <ImageView layoutX="396.0" layoutY="7.0">
+               <image>
+                  <Image url="@imagenes/icons8-ganado-48.png" />
+               </image>
+            </ImageView>
             </children>
         </AnchorPane>
-      <TableView fx:id="TablaVacunas" layoutX="56.0" layoutY="363.0" prefHeight="200.0" prefWidth="527.0">
+      <TableView fx:id="TablaVacunas" layoutX="53.0" layoutY="342.0" prefHeight="200.0" prefWidth="527.0">
         <columns>
           <TableColumn fx:id="DectomaxColumn" prefWidth="98.0" text="Dectomax" />
           <TableColumn fx:id="GanavermColumn" prefWidth="85.0" text="Ganaverm" />
