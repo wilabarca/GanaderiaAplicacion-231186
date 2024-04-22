@@ -25,7 +25,7 @@
                 </Button>
             </children>
         </AnchorPane>
-        <AnchorPane layoutX="177.0" layoutY="91.0" prefHeight="629.0" prefWidth="414.0" style="-fx-background-color: #D8D8D8; -fx-background-radius: 12; -fx-border-color: #D8D8D8;">
+        <AnchorPane layoutX="164.0" layoutY="92.0" prefHeight="629.0" prefWidth="414.0" style="-fx-background-color: #D8D8D8; -fx-background-radius: 12; -fx-border-color: #D8D8D8;">
             <children>
                 <TextField fx:id="txtNumArete" layoutX="28.0" layoutY="88.0" prefHeight="26.0" prefWidth="163.0" style="-fx-border-color: #D4D4D4; -fx-border-radius: 1;" />
                 <Text layoutX="28.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero de Arete" wrappingWidth="121.21630859375">
@@ -52,35 +52,35 @@
                 </Text>
                 <Text layoutX="31.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Estado de Vacunacion">
                     <font>
-                        <Font size="18.0" />
+                        <Font name="Arial" size="18.0" />
                     </font>
                 </Text>
-                <Text layoutX="38.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Esta vacunado con Dectomax?" wrappingWidth="221.21630859375">
+                <Text layoutX="28.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Esta vacunado con Dectomax?" wrappingWidth="221.21630859375">
                     <font>
                         <Font name="Arial" size="14.0" />
                     </font>
                 </Text>
-                <Text layoutX="28.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Esta vacunado con Ganaverm?" wrappingWidth="221.21630859375">
+                <Text layoutX="28.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Esta vacunado con Ganaverm?" wrappingWidth="221.21630859375">
                     <font>
                         <Font name="Arial" size="14.0" />
                     </font>
                 </Text>
-                <Text layoutX="26.0" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Esta vacunado con Adbac?" wrappingWidth="204.21630859375">
+                <Text layoutX="28.0" layoutY="411.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Esta vacunado con Adbac?" wrappingWidth="204.21630859375">
                     <font>
                         <Font name="Arial" size="14.0" />
                     </font>
                 </Text>
-                <Text layoutX="31.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Esta vacunado con Derrivax?" wrappingWidth="211.016850014777">
+                <Text layoutX="30.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Esta vacunado con Derrivax?" wrappingWidth="211.016850014777">
                     <font>
                         <Font name="Arial" size="14.0" />
                     </font>
                 </Text>
-                <Text layoutX="35.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Esta vacunado con Vitanegra?" wrappingWidth="204.21630859375">
+                <Text layoutX="33.0" layoutY="489.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Esta vacunado con Vitanegra?" wrappingWidth="204.21630859375">
                     <font>
                         <Font name="Arial" size="14.0" />
                     </font>
                 </Text>
-                <Text layoutX="35.0" layoutY="506.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Esta vacunado con Catosal?" wrappingWidth="190.8162841796875">
+                <Text layoutX="35.0" layoutY="523.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Esta vacunado con Catosal?" wrappingWidth="190.8162841796875">
                     <font>
                         <Font name="Arial" size="14.0" />
                     </font>
@@ -102,37 +102,37 @@
                         <Image url="@imagenes/calendario.png" />
                     </image>
                 </ImageView>
-                <Button fx:id="BotonRegistrar" layoutX="147.0" layoutY="571.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedRegistraButton" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #999999; -fx-border-color: #999999; -fx-border-radius: 10;" text="Registrar" textFill="WHITE">
+                <Button fx:id="BotonRegistrar" layoutX="150.0" layoutY="564.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedRegistraButton" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #999999; -fx-border-color: #999999; -fx-border-radius: 10;" text="Registrar" textFill="WHITE">
                     <font>
                         <Font name="System Bold" size="15.0" />
                     </font>
                 </Button>
-                <TextField fx:id="DectomaxText" layoutX="253.0" layoutY="282.0" promptText="Escriba Si / No">
+                <TextField fx:id="DectomaxText" layoutX="241.0" layoutY="315.0" promptText="Escriba Si / No">
                     <font>
                         <Font name="System Bold" size="12.0" />
                     </font>
                 </TextField>
-                <TextField fx:id="GanavermText" layoutX="253.0" layoutY="316.0" promptText="Escriba Si / No">
+                <TextField fx:id="GanavermText" layoutX="241.0" layoutY="351.0" promptText="Escriba Si / No">
                     <font>
                         <Font name="System Bold" size="12.0" />
                     </font>
                 </TextField>
-                <TextField fx:id="AdbacText" layoutX="253.0" layoutY="356.0" promptText="Escriba Si / No">
+                <TextField fx:id="AdbacText" layoutX="241.0" layoutY="393.0" promptText="Escriba Si / No">
                     <font>
                         <Font name="System Bold" size="12.0" />
                     </font>
                 </TextField>
-                <TextField fx:id="DerrivaxText" layoutX="253.0" layoutY="398.0" promptText="Escriba Si / No">
+                <TextField fx:id="DerrivaxText" layoutX="241.0" layoutY="431.0" promptText="Escriba Si / No">
                     <font>
                         <Font name="System Bold" size="12.0" />
                     </font>
                 </TextField>
-                <TextField fx:id="VitanegraText" layoutX="253.0" layoutY="436.0" promptText="Escriba Si / No">
+                <TextField fx:id="VitanegraText" layoutX="241.0" layoutY="471.0" promptText="Escriba Si / No">
                     <font>
                         <Font name="System Bold" size="12.0" />
                     </font>
                 </TextField>
-                <TextField fx:id="CatosalText" layoutX="253.0" layoutY="476.0" promptText="Escriba Si / No">
+                <TextField fx:id="CatosalText" layoutX="241.0" layoutY="505.0" promptText="Escriba Si / No">
                     <font>
                         <Font name="System Bold" size="12.0" />
                     </font>
