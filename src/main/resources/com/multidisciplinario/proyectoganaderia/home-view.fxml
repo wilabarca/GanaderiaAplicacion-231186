@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="570.0" prefWidth="739.0" style="-fx-background-color: EBEBEB;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.multidisciplinario.proyectoganaderia.controllers.HomeController">
+<AnchorPane prefHeight="618.0" prefWidth="739.0" style="-fx-background-color: EBEBEB;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.multidisciplinario.proyectoganaderia.controllers.HomeController">
   <children>
     <AnchorPane prefHeight="67.0" prefWidth="739.0" style="-fx-background-color: #30C832; -fx-border-color: #30C832;">
       <children>
@@ -17,14 +17,14 @@
             <Image url="@imagenes/Logotipo.png" />
           </image>
         </ImageView>
+          <Button fx:id="SalirButton" layoutX="617.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedSalirButton" prefHeight="21.0" prefWidth="78.0" style="-fx-background-color: #83DF26;" text="Salir" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
       </children>
     </AnchorPane>
-    <Text layoutX="332.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" wrappingWidth="89.59999999999991">
-      <font>
-        <Font name="System Bold" size="30.0" />
-      </font>
-    </Text>
-    <AnchorPane layoutX="403.0" layoutY="132.0" prefHeight="172.0" prefWidth="278.0" style="-fx-background-color: #D3D3D3; -fx-background-radius: 12;">
+    <AnchorPane layoutX="403.0" layoutY="152.0" prefHeight="172.0" prefWidth="278.0" style="-fx-background-color: #D3D3D3; -fx-background-radius: 12;">
       <children>
         <Button fx:id="VerGanado" layoutX="79.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedVerGanado" prefHeight="30.0" prefWidth="134.0" style="-fx-background-color: #999999;" text="Ver Ganado" textFill="WHITE">
           <font>
@@ -41,7 +41,7 @@
         <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
       </opaqueInsets>
     </AnchorPane>
-    <AnchorPane layoutX="403.0" layoutY="336.0" prefHeight="172.0" prefWidth="278.0" style="-fx-background-color: #D3D3D3; -fx-background-radius: 12;">
+    <AnchorPane layoutX="403.0" layoutY="354.0" prefHeight="172.0" prefWidth="278.0" style="-fx-background-color: #D3D3D3; -fx-background-radius: 12;">
       <children>
         <Button fx:id="EliminarGanado" layoutX="79.0" layoutY="120.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedEliminarGanado" prefHeight="30.0" prefWidth="134.0" style="-fx-background-color: #999999;" text="Eliminar Ganado" textFill="WHITE">
           <font>
@@ -55,7 +55,7 @@
         </ImageView>
       </children>
     </AnchorPane>
-    <AnchorPane layoutX="72.0" layoutY="336.0" prefHeight="172.0" prefWidth="278.0" style="-fx-background-color: #D3D3D3; -fx-background-radius: 12;">
+    <AnchorPane layoutX="71.0" layoutY="354.0" prefHeight="172.0" prefWidth="278.0" style="-fx-background-color: #D3D3D3; -fx-background-radius: 12;">
       <children>
         <Button fx:id="VerReporte" layoutX="72.0" layoutY="114.0" mnemonicParsing="false" onMouseClicked="#onMouseClieckedVerReporte" prefHeight="30.0" prefWidth="134.0" style="-fx-background-color: #999999;" text="Ver Reporte" textFill="WHITE">
           <font>
@@ -69,7 +69,7 @@
         </ImageView>
       </children>
     </AnchorPane>
-    <AnchorPane layoutX="65.0" layoutY="132.0" prefHeight="172.0" prefWidth="278.0" style="-fx-background-color: #D3D3D3; -fx-background-radius: 12;">
+    <AnchorPane layoutX="63.0" layoutY="152.0" prefHeight="172.0" prefWidth="278.0" style="-fx-background-color: #D3D3D3; -fx-background-radius: 12;">
       <children>
         <Button fx:id="RegistraGanado" layoutX="72.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedRegistrarGanado" style="-fx-background-color: #999999;" text="Registrar Ganado" textFill="WHITE">
           <font>
@@ -83,9 +83,24 @@
         </ImageView>
       </children>
     </AnchorPane>
-    <Button fx:id="SalirButton" layoutX="20.0" layoutY="524.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedSalirButton" prefHeight="26.0" prefWidth="78.0" style="-fx-background-color: red;" text="Salir" textFill="WHITE">
-         <font>
-            <Font name="System Bold" size="18.0" />
-         </font></Button>
+      <AnchorPane layoutX="300.0" layoutY="78.0" prefHeight="53.0" prefWidth="164.0" style="-fx-background-color: #DCFFBB; -fx-background-radius: 15;">
+         <children>
+            <Text layoutX="14.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" wrappingWidth="89.59999999999991">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="40.0" fitWidth="49.0" layoutX="101.0" layoutY="5.0">
+               <image>
+                  <Image url="@../../../../../../../Proyecto-GanaderiaMultidiciplinario/src/main/resources/com/multidisciplinario/proyectoganaderia/imagenes/menu.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="49.0" layoutX="104.0" layoutY="5.0">
+               <image>
+                  <Image url="@imagenes/menu.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
   </children>
 </AnchorPane>
