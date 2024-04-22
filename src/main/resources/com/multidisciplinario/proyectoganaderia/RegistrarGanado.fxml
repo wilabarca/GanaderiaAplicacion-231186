@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -101,7 +102,7 @@
                         <Image url="@imagenes/calendario.png" />
                     </image>
                 </ImageView>
-                <Button fx:id="BotonRegistrar" layoutX="141.0" layoutY="559.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedRegistraButton" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #999999; -fx-border-color: #999999; -fx-border-radius: 10;" text="Registrar" textFill="WHITE">
+                <Button fx:id="BotonRegistrar" layoutX="147.0" layoutY="571.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedRegistraButton" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #999999; -fx-border-color: #999999; -fx-border-radius: 10;" text="Registrar" textFill="WHITE">
                     <font>
                         <Font name="System Bold" size="15.0" />
                     </font>
@@ -136,6 +137,7 @@
                         <Font name="System Bold" size="12.0" />
                     </font>
                 </TextField>
+            <Separator layoutX="30.0" layoutY="268.0" prefHeight="2.0" prefWidth="354.0" />
             </children>
         </AnchorPane>
     </children>
