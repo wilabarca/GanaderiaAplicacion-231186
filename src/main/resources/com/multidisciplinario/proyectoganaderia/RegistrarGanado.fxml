@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="732.0" prefWidth="743.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.multidisciplinario.proyectoganaderia.controllers.RegistrarAnimalController">
+<AnchorPane prefHeight="751.0" prefWidth="743.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.multidisciplinario.proyectoganaderia.controllers.RegistrarAnimalController">
     <children>
         <AnchorPane layoutX="-8.0" prefHeight="67.0" prefWidth="751.0" style="-fx-background-color: #30C832; -fx-border-color: #30C832;">
             <children>
@@ -24,12 +24,12 @@
                 </Button>
             </children>
         </AnchorPane>
-        <AnchorPane layoutX="177.0" layoutY="91.0" prefHeight="600.0" prefWidth="410.0" style="-fx-background-color: #D8D8D8; -fx-background-radius: 12; -fx-border-color: #D8D8D8;">
+        <AnchorPane layoutX="177.0" layoutY="91.0" prefHeight="629.0" prefWidth="414.0" style="-fx-background-color: #D8D8D8; -fx-background-radius: 12; -fx-border-color: #D8D8D8;">
             <children>
                 <TextField fx:id="txtNumArete" layoutX="28.0" layoutY="80.0" prefHeight="26.0" prefWidth="163.0" style="-fx-border-color: #D4D4D4; -fx-border-radius: 1;" />
                 <Text layoutX="28.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero de Arete" wrappingWidth="121.21630859375">
                     <font>
-                        <Font size="15.0" />
+                        <Font name="Arial" size="15.0" />
                     </font>
                 </Text>
                 <TextField fx:id="txtEdad" layoutX="214.0" layoutY="80.0" prefHeight="27.0" prefWidth="163.0" style="-fx-border-color: #D4D4D4;" />
@@ -90,7 +90,7 @@
                         <Font size="15.0" />
                     </font>
                 </Text>
-                <TextField fx:id="txtFecha" layoutX="28.0" layoutY="209.0" prefHeight="31.0" prefWidth="168.0" style="-fx-border-color: #D4D4D4;" />
+                <TextField fx:id="txtFecha" layoutX="28.0" layoutY="209.0" prefHeight="31.0" prefWidth="168.0" promptText="Dias/Mes/Año" style="-fx-border-color: #D4D4D4;" />
                 <Text layoutX="33.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha Modificacion" wrappingWidth="232.4163818359375">
                     <font>
                         <Font size="15.0" />
