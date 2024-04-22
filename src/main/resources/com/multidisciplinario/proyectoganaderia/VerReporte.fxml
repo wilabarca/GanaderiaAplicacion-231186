@@ -9,14 +9,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="506.0" prefWidth="902.0" style="-fx-background-color: EBEBEB;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.multidisciplinario.proyectoganaderia.controllers.VerReporteController">
+<AnchorPane prefHeight="517.0" prefWidth="918.0" style="-fx-background-color: #E1E2E0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.multidisciplinario.proyectoganaderia.controllers.VerReporteController">
     <children>
-        <Text layoutX="406.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reporte" textAlignment="CENTER">
-            <font>
-                <Font size="30.0" />
-            </font>
-        </Text>
-        <TableView fx:id="tablaRegistro" layoutX="57.0" layoutY="160.0" prefHeight="306.0" prefWidth="803.0">
+        <TableView fx:id="tablaRegistro" layoutX="57.0" layoutY="167.0" prefHeight="306.0" prefWidth="803.0">
             <columns>
                 <TableColumn fx:id="colArete" prefWidth="75.0" text="Numero de Arete" />
                 <TableColumn fx:id="colEdad" prefWidth="75.0" text="Edad" />
@@ -43,5 +38,19 @@
                 </Button>
             </children>
         </AnchorPane>
+      <AnchorPane layoutX="393.0" layoutY="89.0" prefHeight="53.0" prefWidth="164.0" style="-fx-background-color: #DCFFBB; -fx-background-radius: 15;">
+         <children>
+            <ImageView fitHeight="47.0" fitWidth="48.0" layoutX="110.0" layoutY="3.0">
+               <image>
+                  <Image url="@imagenes/grafico.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reporte" textAlignment="CENTER">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
     </children>
 </AnchorPane>
