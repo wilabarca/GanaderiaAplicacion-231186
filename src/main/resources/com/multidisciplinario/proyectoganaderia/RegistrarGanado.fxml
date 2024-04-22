@@ -92,7 +92,7 @@
                     </font>
                 </Text>
                 <TextField fx:id="txtFecha" layoutX="34.0" layoutY="221.0" prefHeight="31.0" prefWidth="168.0" promptText="Dias/Mes/Año" style="-fx-border-color: #D4D4D4;" />
-                <Text layoutX="32.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha Modificacion" wrappingWidth="232.4163818359375">
+                <Text layoutX="32.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inicio de Vacunacion" wrappingWidth="232.4163818359375">
                     <font>
                         <Font size="15.0" />
                     </font>
