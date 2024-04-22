@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="570.0" prefWidth="739.0" style="-fx-background-color: EBEBEB;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.multidisciplinario.proyectoganaderia.controllers.HomeController">
+  <children>
+    <AnchorPane prefHeight="67.0" prefWidth="739.0" style="-fx-background-color: #30C832; -fx-border-color: #30C832;">
+      <children>
+        <ImageView fitHeight="47.0" fitWidth="200.0" layoutX="14.0" layoutY="10.0">
+          <image>
+            <Image url="@imagenes/Logotipo.png" />
+          </image>
+        </ImageView>
+      </children>
+    </AnchorPane>
+    <Text layoutX="332.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" wrappingWidth="89.59999999999991">
+      <font>
+        <Font name="System Bold" size="30.0" />
+      </font>
+    </Text>
+    <AnchorPane layoutX="403.0" layoutY="132.0" prefHeight="172.0" prefWidth="278.0" style="-fx-background-color: #D3D3D3; -fx-background-radius: 12;">
+      <children>
+        <Button fx:id="VerGanado" layoutX="79.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedVerGanado" prefHeight="30.0" prefWidth="134.0" style="-fx-background-color: #999999;" text="Ver Ganado" textFill="WHITE">
+          <font>
+            <Font name="System Bold" size="14.0" />
+          </font>
+        </Button>
+        <ImageView fitHeight="99.0" fitWidth="121.0" layoutX="71.0" layoutY="14.0">
+          <image>
+            <Image url="@imagenes/verGanado.png" />
+          </image>
+        </ImageView>
+      </children>
+      <opaqueInsets>
+        <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+      </opaqueInsets>
+    </AnchorPane>
+    <AnchorPane layoutX="403.0" layoutY="336.0" prefHeight="172.0" prefWidth="278.0" style="-fx-background-color: #D3D3D3; -fx-background-radius: 12;">
+      <children>
+        <Button fx:id="EliminarGanado" layoutX="79.0" layoutY="120.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedEliminarGanado" prefHeight="30.0" prefWidth="134.0" style="-fx-background-color: #999999;" text="Eliminar Ganado" textFill="WHITE">
+          <font>
+            <Font name="System Bold" size="14.0" />
+          </font>
+        </Button>
+        <ImageView fitHeight="93.0" fitWidth="105.0" layoutX="87.0" layoutY="14.0">
+          <image>
+            <Image url="@imagenes/animal_14005905.png" />
+          </image>
+        </ImageView>
+      </children>
+    </AnchorPane>
+    <AnchorPane layoutX="72.0" layoutY="336.0" prefHeight="172.0" prefWidth="278.0" style="-fx-background-color: #D3D3D3; -fx-background-radius: 12;">
+      <children>
+        <Button fx:id="VerReporte" layoutX="72.0" layoutY="114.0" mnemonicParsing="false" onMouseClicked="#onMouseClieckedVerReporte" prefHeight="30.0" prefWidth="134.0" style="-fx-background-color: #999999;" text="Ver Reporte" textFill="WHITE">
+          <font>
+            <Font name="System Bold" size="14.0" />
+          </font>
+        </Button>
+        <ImageView fitHeight="93.0" fitWidth="105.0" layoutX="87.0" layoutY="14.0">
+          <image>
+            <Image url="@imagenes/verReporte.png" />
+          </image>
+        </ImageView>
+      </children>
+    </AnchorPane>
+    <AnchorPane layoutX="65.0" layoutY="132.0" prefHeight="172.0" prefWidth="278.0" style="-fx-background-color: #D3D3D3; -fx-background-radius: 12;">
+      <children>
+        <Button fx:id="RegistraGanado" layoutX="72.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedRegistrarGanado" style="-fx-background-color: #999999;" text="Registrar Ganado" textFill="WHITE">
+          <font>
+            <Font name="System Bold" size="14.0" />
+          </font>
+        </Button>
+        <ImageView fitHeight="93.0" fitWidth="97.0" layoutX="90.0" layoutY="14.0">
+          <image>
+            <Image url="@imagenes/livestock_5612528.png" />
+          </image>
+        </ImageView>
+      </children>
+    </AnchorPane>
+    <Button fx:id="SalirButton" layoutX="20.0" layoutY="524.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedSalirButton" prefHeight="26.0" prefWidth="78.0" style="-fx-background-color: red;" text="Salir" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+  </children>
+</AnchorPane>
