@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="732.0" prefWidth="743.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.multidisciplinario.proyectoganaderia.controllers.RegistrarAnimalController">
+<AnchorPane prefHeight="732.0" prefWidth="743.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.multidisciplinario.proyectoganaderia.controllers.RegistrarAnimalController">
     <children>
         <AnchorPane layoutX="-8.0" prefHeight="67.0" prefWidth="751.0" style="-fx-background-color: #30C832; -fx-border-color: #30C832;">
             <children>
@@ -24,7 +24,7 @@
                 </Button>
             </children>
         </AnchorPane>
-        <AnchorPane layoutX="177.0" layoutY="91.0" prefHeight="600.0" prefWidth="410.0" style="-fx-background-color: #CDCDCD; -fx-background-radius: 12; -fx-border-color: #CDCDCD;">
+        <AnchorPane layoutX="177.0" layoutY="91.0" prefHeight="600.0" prefWidth="410.0" style="-fx-background-color: #D8D8D8; -fx-background-radius: 12; -fx-border-color: #D8D8D8;">
             <children>
                 <TextField fx:id="txtNumArete" layoutX="28.0" layoutY="80.0" prefHeight="26.0" prefWidth="163.0" style="-fx-border-color: #D4D4D4; -fx-border-radius: 1;" />
                 <Text layoutX="28.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero de Arete" wrappingWidth="121.21630859375">
@@ -46,7 +46,7 @@
                 </Text>
                 <Text layoutX="128.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registrar Ganado">
                     <font>
-                        <Font size="19.0" />
+                        <Font name="System Bold" size="19.0" />
                     </font>
                 </Text>
                 <Text layoutX="30.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Estado de Vacunacion">
